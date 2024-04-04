@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Space Grotesk;
+}
+.bgimg{
+  background-image: url(./assets/Group10.png);
+  width: 375px;
+  height: 240px;
+}
+.container{
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.section{
+  width: 375px;
+  box-shadow: 0 0 32px rgb(150, 149, 149);
+}
+.backcard{
+  width:286px ;
+  height: 157px;
+  background-color: rgb(228, 227, 227);
+  border-radius: 5px;
+  padding-top: 25px;
+  margin-left: 70px;
+  margin-top: 30px;
+  position: absolute;
+}
+.cvcdiv{
+  width:230px ;
+  height: 29px;
+  background-color: rgb(162, 161, 161);
+  margin-top: 15px;
+  text-align: right;
+  margin-left: 30px;
+  border-radius: 3px;
+}
+.cvcinput{
+  border: none;
+  text-align: right;
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(162, 161, 161);
+}
+.backline{
+  width:286px ;
+  height: 34px;
+  background-color: rgb(20, 20, 20);
+  padding-top: 20px;
+}
+.ferstcard{
+  width: 286px;
+  height: 157px;
+  background-image: url(./assets/card1.png);
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  top: 134px;
+  left: 20px;
+}
+.card_num{
+  background: none;
+  border: none;
+  width: 249px;
+  height: 23px;
+  margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  padding-left: 13px;
+  margin-bottom: 10px;
+}
+.mastercard{
+  width: 40px;
+  height: 25px;
+  margin-right: 100px;
+}
+.cardholdername{
+  width: 125px;
+  margin-right: 65px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 10px;
+  padding-left: 13px;
+}
+.deta{
+  width: 40px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+}
+.year{
+  width: 30px;
+  background: none;
+  color: white;
+  font-size: 10px;
+  border: none;
+}
+.inputwritten{
+  width:375px ;
+  height:250px ;
+  color: gray;
+  margin-top: 150px;
+}
+.inputwritten p{
+  font-size: 10px;
+}
+.inputNum{
+  width: 327px;
+  height: 69px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.inputnumber{
+  width: 329px;
+  height: 35px;
+}
+.inputname{
+  width: 327px;
+  height: 69px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.inputnamess{
+  width: 329px;
+  height: 35px;
+}
+.inputdate{
+  width: 329px;
+  height: 69px;
+  padding: 0px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.data{
+  width: 70px;
+  height: 35px;
+  margin-right: 19px;
+}
+.yearsinpit{
+  width: 70px;
+  height: 35px;
+  margin-right: 20px;
+}
+.cvcwrite{
+  width: 150px;
+  height: 35px;
+}
+.btn{
+  margin-top: 30px;
+  cursor: pointer;
+}
+.thank{
+  width: 300px;
+  height: 300px;
+  margin-top: 220px;
+  text-align: center;
+  margin-left: 23px;
+  color: rgb(74, 73, 73);
+}
+.thankbtn{
+  width: 329px;
+  height: 50px;
+  background-color: rgb(33, 9, 47);
+  color: white;
+  border-radius: 5px;
+}
+.thank p{
+  margin: 20px;
+}
+.thank h1{
+  margin-top: 30px;
+}
+.imgthank{
+  width: 80px;
+  height: 80px;
+}
+.lines{
+  display: none;
+}
+
+@media screen and (min-width:1200px){
+  .container{
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+   }
+  .bgimg{
+    background-image: url(./assets/Group10.png);
+    background-repeat: no-repeat;
+    width: 483px;
+    height: 812px;
+    padding-top: 1px;
+  }
+  .inputwritten{
+      margin-left: 850px;
+      margin-top: 0px;
+  }
+  .backcard{
+    margin-left: 260px;
+    margin-top: 420px;
+    width: 447px;
+    height: 245px;
+    background-repeat: no-repeat;
+  }
+  .ferstcard{
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 447px;
+    height: 245px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+  .card_num{
+    width: 373px;
+    height: 36px;
+    margin-top: 60px;
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .mastercard{
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 84px;
+    height: 47px;
+  }
+   .cardholdername{
+    font-size: 14px;
+    margin-right: 190px;
+   }
+  .deta{
+    font-size: 14px;
+  }
+  .year{
+    font-size: 14px;
+  }
+  .backline{
+    width: 447px;
+    height: 54px;
+  }
+  .cvcdiv{
+    width: 361px;
+    height: 38px;
+    text-align: right;
+    font-size: 14px;
+  }
+  .cvcinput{
+    text-align: right;
+  }
+  .thank{
+    margin-left: 850px;
+    margin-top: 50px;
+  }
+   .lines{
+    display: inline;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 110px;
+   }
+
+}
